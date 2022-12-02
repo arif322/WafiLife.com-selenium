@@ -25,7 +25,7 @@ public class AccountCreate7 extends BaseDrivers {
 	@BeforeClass
 	public void startUrl () {
 		report = ExtentFactory.getInstance();
-		parentTest = report.createTest("<p style=\"color:DarkBlue; font-size:20px\"><b>Created</b></p>")
+		parentTest = report.createTest("<p style=\"color:DarkBlue; font-size:20px\"><b>Order Page</b></p>")
 						.assignAuthor("QA TEAM").assignDevice("Windows");
 		
 		PageDriver.getCurrentDriver().manage().window().maximize();
@@ -35,7 +35,7 @@ public class AccountCreate7 extends BaseDrivers {
 	@Test (priority = 0)
 	public void SelectDistrict() throws IOException {
 		
-		childTest = parentTest.createNode("<p style=\"color:DarkBlue; font-size:20px\"><b>click  sign In"
+		childTest = parentTest.createNode("<p style=\"color:DarkBlue; font-size:20px\"><b>District Selected"
 				+ "</b></p>");
 		
 		BillingAddress DistrictPage = new BillingAddress(childTest);
@@ -47,7 +47,7 @@ public class AccountCreate7 extends BaseDrivers {
 	@Test (priority = 1)
 	public void DisRajAccount() throws IOException {
 		
-		childTest = parentTest.createNode("<p style=\"color:DarkBlue; font-size:20px\"><b>click  sign In"
+		childTest = parentTest.createNode("<p style=\"color:DarkBlue; font-size:20px\"><b> Selected District Rajshahi."
 				+ "</b></p>");
 		
 		BillingAddress DistRajPage = new BillingAddress(childTest);
@@ -58,7 +58,7 @@ public class AccountCreate7 extends BaseDrivers {
 	@Test (priority = 2)
 	public void AreaAccount() throws IOException {
 		
-		childTest = parentTest.createNode("<p style=\"color:DarkBlue; font-size:20px\"><b>click  sign In"
+		childTest = parentTest.createNode("<p style=\"color:DarkBlue; font-size:20px\"><b>Select Area."
 				+ "</b></p>");
 		
 		BillingAddress AreaPage = new BillingAddress(childTest);
@@ -69,7 +69,7 @@ public class AccountCreate7 extends BaseDrivers {
 	@Test (priority = 3)
 	public void AreaNameAccount() throws IOException {
 		
-		childTest = parentTest.createNode("<p style=\"color:DarkBlue; font-size:20px\"><b>click  sign In"
+		childTest = parentTest.createNode("<p style=\"color:DarkBlue; font-size:20px\"><b>Select Rajshahi City Area"
 				+ "</b></p>");
 		
 		BillingAddress AreaNamePage = new BillingAddress(childTest);
@@ -80,7 +80,7 @@ public class AccountCreate7 extends BaseDrivers {
 	@Test (priority = 4)
 	public void AddressAccount() throws IOException {
 		
-		childTest = parentTest.createNode("<p style=\"color:DarkBlue; font-size:20px\"><b>click  sign In"
+		childTest = parentTest.createNode("<p style=\"color:DarkBlue; font-size:20px\"><b>Fill Up Address Section"
 				+ "</b></p>");
 		
 		BillingAddress homePage = new BillingAddress(childTest);
@@ -91,7 +91,7 @@ public class AccountCreate7 extends BaseDrivers {
 	@Test (priority = 5)
 	public void CommentAccount() throws IOException {
 		
-		childTest = parentTest.createNode("<p style=\"color:DarkBlue; font-size:20px\"><b>click  sign In"
+		childTest = parentTest.createNode("<p style=\"color:DarkBlue; font-size:20px\"><b>If you Have Any Comment For Us"
 				+ "</b></p>");
 		
 		BillingAddress CommentPage = new BillingAddress(childTest);
@@ -113,7 +113,7 @@ public class AccountCreate7 extends BaseDrivers {
 	@Test (priority = 7)
 	public void PaymentAccount() throws IOException {
 		
-		childTest = parentTest.createNode("<p style=\"color:DarkBlue; font-size:20px\"><b>click  sign In"
+		childTest = parentTest.createNode("<p style=\"color:DarkBlue; font-size:20px\"><b>Select Your Payment Method"
 				+ "</b></p>");
 		
 		BillingAddress paymentPage = new BillingAddress(childTest);
@@ -125,7 +125,7 @@ public class AccountCreate7 extends BaseDrivers {
 	
 	@Test (priority = 8)
 	public void ClickOnorderSystem() throws IOException {
-		childTest = parentTest.createNode("<p style=\"color:DarkBlue; font-size:20px\"><b>Account created</b></p>");
+		childTest = parentTest.createNode("<p style=\"color:DarkBlue; font-size:20px\"><b>Order Your Product</b></p>");
 		
 		BillingAddress OrderPerfectPage = new BillingAddress(childTest);
 		OrderPerfectPage.SelectOrder();
