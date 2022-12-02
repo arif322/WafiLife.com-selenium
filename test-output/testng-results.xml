@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="12" total="33" passed="21" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-12-02T13:05:28 BDT" name="Suite" finished-at="2022-12-02T13:07:30 BDT" duration-ms="122210">
+    <groups>
+    </groups>
+    <test started-at="2022-12-02T13:05:28 BDT" name="Test" finished-at="2022-12-02T13:07:30 BDT" duration-ms="122210">
+      <class name="tests.AccountCreate2">
+        <test-method signature="AuthorSelect()[pri:0, instance:tests.AccountCreate2@13526e59]" started-at="2022-12-02T13:06:22 BDT" name="AuthorSelect" finished-at="2022-12-02T13:06:24 BDT" duration-ms="2414" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AuthorSelect -->
+        <test-method is-config="true" signature="startUrl()[pri:0, instance:tests.AccountCreate2@13526e59]" started-at="2022-12-02T13:06:22 BDT" name="startUrl" finished-at="2022-12-02T13:06:22 BDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUrl -->
+        <test-method signature="ClickOnSignIn()[pri:1, instance:tests.AccountCreate2@13526e59]" started-at="2022-12-02T13:06:24 BDT" name="ClickOnSignIn" finished-at="2022-12-02T13:06:35 BDT" duration-ms="10603" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickOnSignIn -->
+        <test-method signature="bookCollect()[pri:2, instance:tests.AccountCreate2@13526e59]" started-at="2022-12-02T13:06:35 BDT" name="bookCollect" finished-at="2022-12-02T13:06:40 BDT" duration-ms="4926" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookCollect -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:tests.AccountCreate2@13526e59]" started-at="2022-12-02T13:06:40 BDT" name="afterClass" finished-at="2022-12-02T13:06:40 BDT" duration-ms="62" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- tests.AccountCreate2 -->
+      <class name="tests.AccountCreate3">
+        <test-method is-config="true" signature="startUrl()[pri:0, instance:tests.AccountCreate3@2235eaab]" started-at="2022-12-02T13:06:40 BDT" name="startUrl" finished-at="2022-12-02T13:06:40 BDT" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUrl -->
+        <test-method signature="Selectpage()[pri:0, instance:tests.AccountCreate3@2235eaab]" started-at="2022-12-02T13:06:40 BDT" name="Selectpage" finished-at="2022-12-02T13:06:46 BDT" duration-ms="6381" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Selectpage -->
+        <test-method signature="SelectCat()[pri:1, instance:tests.AccountCreate3@2235eaab]" started-at="2022-12-02T13:06:46 BDT" name="SelectCat" finished-at="2022-12-02T13:06:57 BDT" duration-ms="10554" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectCat -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:tests.AccountCreate3@2235eaab]" started-at="2022-12-02T13:06:57 BDT" name="afterClass" finished-at="2022-12-02T13:06:57 BDT" duration-ms="62" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- tests.AccountCreate3 -->
+      <class name="tests.AccountCreate">
+        <test-method is-config="true" signature="start()[pri:0, instance:tests.AccountCreate@6d5620ce]" started-at="2022-12-02T13:05:27 BDT" name="start" finished-at="2022-12-02T13:05:28 BDT" duration-ms="1524" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method is-config="true" signature="startUrl()[pri:0, instance:tests.AccountCreate@6d5620ce]" started-at="2022-12-02T13:05:28 BDT" name="startUrl" finished-at="2022-12-02T13:05:30 BDT" duration-ms="1914" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUrl -->
+        <test-method signature="createAccount()[pri:0, instance:tests.AccountCreate@6d5620ce]" started-at="2022-12-02T13:05:30 BDT" name="createAccount" finished-at="2022-12-02T13:05:33 BDT" duration-ms="3298" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAccount -->
+        <test-method signature="ClickOnSignIn()[pri:1, instance:tests.AccountCreate@6d5620ce]" started-at="2022-12-02T13:05:33 BDT" name="ClickOnSignIn" finished-at="2022-12-02T13:05:59 BDT" duration-ms="25676" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickOnSignIn -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:tests.AccountCreate@6d5620ce]" started-at="2022-12-02T13:05:59 BDT" name="afterClass" finished-at="2022-12-02T13:05:59 BDT" duration-ms="156" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="close()[pri:0, instance:tests.AccountCreate@6d5620ce]" started-at="2022-12-02T13:07:30 BDT" name="close" finished-at="2022-12-02T13:07:31 BDT" duration-ms="126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- tests.AccountCreate -->
+      <class name="tests.AccountCreate6">
+        <test-method signature="OrderAccount()[pri:0, instance:tests.AccountCreate6@17503f6b]" started-at="2022-12-02T13:06:57 BDT" name="OrderAccount" finished-at="2022-12-02T13:06:59 BDT" duration-ms="2216" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrderAccount -->
+        <test-method is-config="true" signature="startUrl()[pri:0, instance:tests.AccountCreate6@17503f6b]" started-at="2022-12-02T13:06:57 BDT" name="startUrl" finished-at="2022-12-02T13:06:57 BDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUrl -->
+        <test-method signature="ConfirmPreOrder()[pri:1, instance:tests.AccountCreate6@17503f6b]" started-at="2022-12-02T13:06:59 BDT" name="ConfirmPreOrder" finished-at="2022-12-02T13:07:03 BDT" duration-ms="3878" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfirmPreOrder -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:tests.AccountCreate6@17503f6b]" started-at="2022-12-02T13:07:03 BDT" name="afterClass" finished-at="2022-12-02T13:07:03 BDT" duration-ms="62" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- tests.AccountCreate6 -->
+      <class name="tests.AccountCreate7">
+        <test-method signature="SelectDistrict()[pri:0, instance:tests.AccountCreate7@3bcd05cb]" started-at="2022-12-02T13:07:03 BDT" name="SelectDistrict" finished-at="2022-12-02T13:07:05 BDT" duration-ms="2179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectDistrict -->
+        <test-method is-config="true" signature="startUrl()[pri:0, instance:tests.AccountCreate7@3bcd05cb]" started-at="2022-12-02T13:07:03 BDT" name="startUrl" finished-at="2022-12-02T13:07:03 BDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUrl -->
+        <test-method signature="DisRajAccount()[pri:1, instance:tests.AccountCreate7@3bcd05cb]" started-at="2022-12-02T13:07:05 BDT" name="DisRajAccount" finished-at="2022-12-02T13:07:07 BDT" duration-ms="2116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DisRajAccount -->
+        <test-method signature="AreaAccount()[pri:2, instance:tests.AccountCreate7@3bcd05cb]" started-at="2022-12-02T13:07:07 BDT" name="AreaAccount" finished-at="2022-12-02T13:07:09 BDT" duration-ms="2168" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AreaAccount -->
+        <test-method signature="AreaNameAccount()[pri:3, instance:tests.AccountCreate7@3bcd05cb]" started-at="2022-12-02T13:07:09 BDT" name="AreaNameAccount" finished-at="2022-12-02T13:07:12 BDT" duration-ms="2119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AreaNameAccount -->
+        <test-method signature="AddressAccount()[pri:4, instance:tests.AccountCreate7@3bcd05cb]" started-at="2022-12-02T13:07:12 BDT" name="AddressAccount" finished-at="2022-12-02T13:07:14 BDT" duration-ms="2243" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddressAccount -->
+        <test-method signature="CommentAccount()[pri:5, instance:tests.AccountCreate7@3bcd05cb]" started-at="2022-12-02T13:07:14 BDT" name="CommentAccount" finished-at="2022-12-02T13:07:26 BDT" duration-ms="12180" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CommentAccount -->
+        <test-method signature="PaymentAccount()[pri:7, instance:tests.AccountCreate7@3bcd05cb]" started-at="2022-12-02T13:07:26 BDT" name="PaymentAccount" finished-at="2022-12-02T13:07:28 BDT" duration-ms="2130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PaymentAccount -->
+        <test-method signature="ClickOnorderSystem()[pri:8, instance:tests.AccountCreate7@3bcd05cb]" started-at="2022-12-02T13:07:28 BDT" name="ClickOnorderSystem" finished-at="2022-12-02T13:07:30 BDT" duration-ms="2174" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickOnorderSystem -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:tests.AccountCreate7@3bcd05cb]" started-at="2022-12-02T13:07:30 BDT" name="afterClass" finished-at="2022-12-02T13:07:30 BDT" duration-ms="89" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- tests.AccountCreate7 -->
+      <class name="tests.AccountCreate4">
+        <test-method signature="createAccount()[pri:0, instance:tests.AccountCreate4@7098b907]" started-at="2022-12-02T13:05:59 BDT" name="createAccount" finished-at="2022-12-02T13:06:13 BDT" duration-ms="14062" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAccount -->
+        <test-method is-config="true" signature="startUrl()[pri:0, instance:tests.AccountCreate4@7098b907]" started-at="2022-12-02T13:05:59 BDT" name="startUrl" finished-at="2022-12-02T13:05:59 BDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUrl -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:tests.AccountCreate4@7098b907]" started-at="2022-12-02T13:06:13 BDT" name="afterClass" finished-at="2022-12-02T13:06:13 BDT" duration-ms="50" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- tests.AccountCreate4 -->
+      <class name="tests.AccountCreate5">
+        <test-method is-config="true" signature="startUrl()[pri:0, instance:tests.AccountCreate5@503f91c3]" started-at="2022-12-02T13:06:13 BDT" name="startUrl" finished-at="2022-12-02T13:06:13 BDT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUrl -->
+        <test-method signature="createLogIn()[pri:0, instance:tests.AccountCreate5@503f91c3]" started-at="2022-12-02T13:06:13 BDT" name="createLogIn" finished-at="2022-12-02T13:06:16 BDT" duration-ms="2166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createLogIn -->
+        <test-method signature="ClickPasswordIn()[pri:1, instance:tests.AccountCreate5@503f91c3]" started-at="2022-12-02T13:06:16 BDT" name="ClickPasswordIn" finished-at="2022-12-02T13:06:18 BDT" duration-ms="2191" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickPasswordIn -->
+        <test-method signature="ClickLogInPageButton()[pri:2, instance:tests.AccountCreate5@503f91c3]" started-at="2022-12-02T13:06:18 BDT" name="ClickLogInPageButton" finished-at="2022-12-02T13:06:22 BDT" duration-ms="4040" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickLogInPageButton -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:tests.AccountCreate5@503f91c3]" started-at="2022-12-02T13:06:22 BDT" name="afterClass" finished-at="2022-12-02T13:06:22 BDT" duration-ms="53" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- tests.AccountCreate5 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

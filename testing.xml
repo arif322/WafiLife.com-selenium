@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="8" name="Test">
+		<classes>
+			<class
+				name="tests.AccountCreate" />
+			<class
+				name="tests.AccountCreate4" />
+			<class
+				name="tests.AccountCreate5" />
+			<class
+				name="tests.AccountCreate2" />	
+			<class
+				name="tests.AccountCreate3" />
+			<class
+				name="tests.AccountCreate6" />
+			<class
+				name="tests.AccountCreate7" />
+			
+			
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,185 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>21/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Dec 02 13:05:28 BDT 2022</td>
+</tr>
+<tr><td>Total time:</td><td>122 seconds (122210 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='tests.AccountCreate.createAccount()'><b>createAccount</b><br>Test class: tests.AccountCreate</td>
+<td></td>
+<td>3</td>
+<td>tests.AccountCreate@6d5620ce</td></tr>
+<tr>
+<td title='tests.AccountCreate.ClickOnSignIn()'><b>ClickOnSignIn</b><br>Test class: tests.AccountCreate</td>
+<td></td>
+<td>25</td>
+<td>tests.AccountCreate@6d5620ce</td></tr>
+<tr>
+<td title='tests.AccountCreate2.bookCollect()'><b>bookCollect</b><br>Test class: tests.AccountCreate2</td>
+<td></td>
+<td>4</td>
+<td>tests.AccountCreate2@13526e59</td></tr>
+<tr>
+<td title='tests.AccountCreate6.OrderAccount()'><b>OrderAccount</b><br>Test class: tests.AccountCreate6</td>
+<td></td>
+<td>2</td>
+<td>tests.AccountCreate6@17503f6b</td></tr>
+<tr>
+<td title='tests.AccountCreate2.ClickOnSignIn()'><b>ClickOnSignIn</b><br>Test class: tests.AccountCreate2</td>
+<td></td>
+<td>10</td>
+<td>tests.AccountCreate2@13526e59</td></tr>
+<tr>
+<td title='tests.AccountCreate7.AreaNameAccount()'><b>AreaNameAccount</b><br>Test class: tests.AccountCreate7</td>
+<td></td>
+<td>2</td>
+<td>tests.AccountCreate7@3bcd05cb</td></tr>
+<tr>
+<td title='tests.AccountCreate3.SelectCat()'><b>SelectCat</b><br>Test class: tests.AccountCreate3</td>
+<td></td>
+<td>10</td>
+<td>tests.AccountCreate3@2235eaab</td></tr>
+<tr>
+<td title='tests.AccountCreate6.ConfirmPreOrder()'><b>ConfirmPreOrder</b><br>Test class: tests.AccountCreate6</td>
+<td></td>
+<td>3</td>
+<td>tests.AccountCreate6@17503f6b</td></tr>
+<tr>
+<td title='tests.AccountCreate7.DisRajAccount()'><b>DisRajAccount</b><br>Test class: tests.AccountCreate7</td>
+<td></td>
+<td>2</td>
+<td>tests.AccountCreate7@3bcd05cb</td></tr>
+<tr>
+<td title='tests.AccountCreate2.AuthorSelect()'><b>AuthorSelect</b><br>Test class: tests.AccountCreate2</td>
+<td></td>
+<td>2</td>
+<td>tests.AccountCreate2@13526e59</td></tr>
+<tr>
+<td title='tests.AccountCreate3.Selectpage()'><b>Selectpage</b><br>Test class: tests.AccountCreate3</td>
+<td></td>
+<td>6</td>
+<td>tests.AccountCreate3@2235eaab</td></tr>
+<tr>
+<td title='tests.AccountCreate7.PaymentAccount()'><b>PaymentAccount</b><br>Test class: tests.AccountCreate7</td>
+<td></td>
+<td>2</td>
+<td>tests.AccountCreate7@3bcd05cb</td></tr>
+<tr>
+<td title='tests.AccountCreate7.ClickOnorderSystem()'><b>ClickOnorderSystem</b><br>Test class: tests.AccountCreate7</td>
+<td></td>
+<td>2</td>
+<td>tests.AccountCreate7@3bcd05cb</td></tr>
+<tr>
+<td title='tests.AccountCreate5.ClickLogInPageButton()'><b>ClickLogInPageButton</b><br>Test class: tests.AccountCreate5</td>
+<td></td>
+<td>4</td>
+<td>tests.AccountCreate5@503f91c3</td></tr>
+<tr>
+<td title='tests.AccountCreate7.CommentAccount()'><b>CommentAccount</b><br>Test class: tests.AccountCreate7</td>
+<td></td>
+<td>12</td>
+<td>tests.AccountCreate7@3bcd05cb</td></tr>
+<tr>
+<td title='tests.AccountCreate4.createAccount()'><b>createAccount</b><br>Test class: tests.AccountCreate4</td>
+<td></td>
+<td>14</td>
+<td>tests.AccountCreate4@7098b907</td></tr>
+<tr>
+<td title='tests.AccountCreate7.SelectDistrict()'><b>SelectDistrict</b><br>Test class: tests.AccountCreate7</td>
+<td></td>
+<td>2</td>
+<td>tests.AccountCreate7@3bcd05cb</td></tr>
+<tr>
+<td title='tests.AccountCreate5.createLogIn()'><b>createLogIn</b><br>Test class: tests.AccountCreate5</td>
+<td></td>
+<td>2</td>
+<td>tests.AccountCreate5@503f91c3</td></tr>
+<tr>
+<td title='tests.AccountCreate7.AreaAccount()'><b>AreaAccount</b><br>Test class: tests.AccountCreate7</td>
+<td></td>
+<td>2</td>
+<td>tests.AccountCreate7@3bcd05cb</td></tr>
+<tr>
+<td title='tests.AccountCreate7.AddressAccount()'><b>AddressAccount</b><br>Test class: tests.AccountCreate7</td>
+<td></td>
+<td>2</td>
+<td>tests.AccountCreate7@3bcd05cb</td></tr>
+<tr>
+<td title='tests.AccountCreate5.ClickPasswordIn()'><b>ClickPasswordIn</b><br>Test class: tests.AccountCreate5</td>
+<td></td>
+<td>2</td>
+<td>tests.AccountCreate5@503f91c3</td></tr>
+</table><p>
+</body>
+</html>
